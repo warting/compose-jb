@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalComposeWebWidgetsApi::class)
+
 package com.github.veselovalex.minesweeper
 
 import androidx.compose.runtime.*
