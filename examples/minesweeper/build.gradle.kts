@@ -54,6 +54,8 @@ compose.desktop {
 // a temporary workaround for a bug in jsRun invocation - see https://youtrack.jetbrains.com/issue/KT-48273
 afterEvaluate {
     rootProject.extensions.configure<NodeJsRootExtension> {
-        versions.webpackDevServer.version = "4.0.0"
+        versions.webpack.version = "5.64.4"
+        versions.webpackDevServer.version = "4.6.0"
+        versions.webpackCli.version = "4.9.1"
     }
 }
